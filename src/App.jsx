@@ -5,7 +5,7 @@ import './App.css'
 
 function App() {
   return (
-      <div className="wrapper grid">
+    <>
         <header className="site-header">
             <h1>🔥Fireplace Palace</h1>
         </header>
@@ -61,7 +61,7 @@ function App() {
                 <p><a href="mailto:info@firepalace.co.uk">info@firepalace.co.uk</a></p>
             </div>
         </footer>
-    </div>
+        </>
   )
 }
 
