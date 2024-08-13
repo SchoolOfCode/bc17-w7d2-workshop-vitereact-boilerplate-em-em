@@ -30,7 +30,7 @@ function App() {
                         <img src="images/how-it-works-1.png" alt="" />
                     </figure>
                     <h3>Give us a call ...</h3>
-                    <p>Call us and book a \'Design Consultation\' on a date and time to suit you.</p>
+                    <p>Call us and book a &quot;Design Consultation&quot; on a date and time to suit you.</p>
                 </div>
                 <div className="card">
                     <figure className="card-img">
