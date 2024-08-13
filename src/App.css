@@ -1,42 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Aleo:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+	margin: 0;
+	box-sizing: border-box;
+	font-family: "Aleo", serif;
+	font-size: 10px;
+  color: black;
+}
+
 #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+  width: 100%;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+.grid {
+	display: grid;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.flex {
+	display: flex;
+	flex-direction: column;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.wrapper {
+	margin: 2rem;
+	grid-template-rows: 5.5rem 1fr 10rem;
+}
+
+.site-header {
+    margin-bottom: 1rem;
+}
+
+.site-header h1 {
+	font-size: 2.5rem;
+}
+
+.site-main {
+	grid-template-rows: 1fr 2fr;
+}
+
+.site-footer {
+	background-color: #f0f0f0;
+	grid-template-columns: 1fr 1fr;
+	padding: 2rem;
+	font-size: 2rem;
+}
+
+.hero {
+	grid-template-rows: 1.7fr 0.5fr;
+}
+
+.hero img {
+	width: 100%;
+}
+
+.hero-text {
+	background-color: #ef901b;
+	padding: 1.5em;
+}
+
+.hero-text h2 {
+	font-size: 3.5rem;
+	line-height: 1.3em;
+}
+
+.hero-text p {
+	font-size: 2rem;
+	font-weight: 800;
+}
+
+.hero-text span {
+	color: #fff;
+	font-size: 2rem;
+	font-weight: 600;
+}
+
+.how-it-works {
+	grid-template-rows: 11em 1fr 1fr 1fr;
+}
+
+.how-it-works h2 {
+    font-size: 3.5rem;
+    text-align: center;
+    font-weight: 500;
+    padding: 2rem 0;
 }
 
 .card {
-  padding: 2em;
+	flex-direction: column;
+	align-items: center;
+	padding: 3rem 0;
+	border-top: 1px solid #f0f0f0; 
 }
 
-.read-the-docs {
-  color: #888;
+.card-img {
+	display: inline;
+	width: 50%;
+}
+
+.card-img img {
+    width: 100%;
+}
+
+.card h3 {
+	font-size: 2rem;
+	margin: 1rem 0;
+}
+
+.card p {
+	font-size: 1.8rem;
+	text-align: center;
+	font-weight: 600;
+}
+
+.find-us {
+	justify-content: space-around;
+}
+
+.copyright-info {
+	justify-content: space-around;
 }
