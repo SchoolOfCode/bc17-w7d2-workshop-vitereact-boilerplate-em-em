@@ -8,11 +8,6 @@
   color: black;
 }
 
-/* #root {
-  width: 100%;
-  background-color: #fff;
-} */
-
 body {
   background-color: #fff;
 }
@@ -30,13 +25,6 @@ body {
   width: 100%;
 	margin: 2rem;
 	grid-template-rows: 5.5rem 1fr 10rem;
-}
-
-.site-footer {
-	background-color: #f0f0f0;
-	grid-template-columns: 1fr 1fr;
-	padding: 2rem;
-	font-size: 2rem;
 }
 
 .hero {
