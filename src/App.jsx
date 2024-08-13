@@ -4,9 +4,8 @@ import './App.css'
 
 function App() {
 
-  return (
-		<>
-			<div className="wrapper grid">
+  return ( 
+	<div className="wrapper grid">
 				<header className="site-header">
 					<h1>🔥Fireplace Palace</h1>
         </header>
@@ -64,7 +63,6 @@ function App() {
             </div>
         </footer>
 			</div>
-		</>
 	);
 }
 
