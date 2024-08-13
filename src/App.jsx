@@ -1,14 +1,11 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
+import Header from "./components/Header/Header.jsx"
 
 function App() {
   return (
     <>
-        <header className="site-header">
-            <h1>🔥Fireplace Palace</h1>
-        </header>
+        <Header />
         <main className="site-main grid">
             <section className="hero grid">
                 <figure>
