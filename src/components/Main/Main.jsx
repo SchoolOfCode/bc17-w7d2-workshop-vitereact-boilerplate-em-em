@@ -1,4 +1,5 @@
 import React from "react";
+import Hero from "../Hero/Hero.jsx"
 
 import styles from "./Main.module.css";
 
@@ -6,18 +7,7 @@ const Main = function() {
     return (
         <>
             <main className={styles.site_main}>
-            <section className="hero grid">
-                <figure>
-                    <img src="images/hero-mobile.png" alt="Cosy, warm fireplace cartoon" />
-                </figure>
-                <div className="hero-text">
-                    <h2>Discover the<br /> Perfect Fireplace...</h2>
-                    <p>
-                        Book consultation: 
-                        <span>0121 345 6789</span>
-                    </p>
-                </div>
-            </section>
+                <Hero />
             <section className="how-it-works">
                 <h2>How it works.</h2>
                 <div className="card flex">

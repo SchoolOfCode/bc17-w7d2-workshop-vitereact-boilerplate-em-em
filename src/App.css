@@ -27,35 +27,6 @@ body {
 	grid-template-rows: 5.5rem 1fr 10rem;
 }
 
-.hero {
-	grid-template-rows: 1.7fr 0.5fr;
-}
-
-.hero img {
-	width: 100%;
-}
-
-.hero-text {
-	background-color: #ef901b;
-	padding: 1.5em;
-}
-
-.hero-text h2 {
-	font-size: 3.5rem;
-	line-height: 1.3em;
-}
-
-.hero-text p {
-	font-size: 2rem;
-	font-weight: 800;
-}
-
-.hero-text span {
-	color: #fff;
-	font-size: 2rem;
-	font-weight: 600;
-}
-
 .how-it-works {
 	grid-template-rows: 11em 1fr 1fr 1fr;
 }
