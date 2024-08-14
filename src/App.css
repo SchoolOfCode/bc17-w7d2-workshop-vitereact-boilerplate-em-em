@@ -11,30 +11,37 @@
 	display: grid;
 }
 
+.flex {
+	display: flex;
+	flex-direction: column;
+}
+
 .wrapper {
-	margin: 2em;
-	grid-template-rows: 5.5em 1fr 9em;
+	margin: 2rem;
+	grid-template-rows: 5.5rem 1fr 10rem;
 }
 
 .site-header {
-	margin-bottom: 1em;
+    margin-bottom: 1rem;
 }
 
 .site-header h1 {
-	font-size: 4em;
+	font-size: 2.5rem;
 }
 
 .site-main {
-	background-color: rgb(186, 132, 50);
-	grid-template-rows: 1fr 3fr;
+	grid-template-rows: 1fr 2fr;
 }
 
 .site-footer {
-	background-color: azure;
+	background-color: #f0f0f0;
+	grid-template-columns: 1fr 1fr;
+	padding: 2rem;
+	font-size: 2rem;
 }
 
 .hero {
-	grid-template-rows: 3fr 1fr;
+	grid-template-rows: 1.7fr 0.5fr;
 }
 
 .hero img {
@@ -43,21 +50,22 @@
 
 .hero-text {
 	background-color: #ef901b;
-	padding: 2em;
+	padding: 1.5em;
 }
 
 .hero-text h2 {
-	font-size: 7em;
+	font-size: 3.5rem;
+	line-height: 1.3em;
 }
 
 .hero-text p {
-	font-size: 4em;
-	font-weight: 600;
+	font-size: 2rem;
+	font-weight: 800;
 }
 
 .hero-text span {
 	color: #fff;
-	font-size: 4rem;
+	font-size: 2rem;
 	font-weight: 600;
 }
 
@@ -66,13 +74,43 @@
 }
 
 .how-it-works h2 {
-	font-size: 7em;
-	text-align: center;
-	font-weight: 400;
-	padding: 2rem 0;
+    font-size: 3.5rem;
+    text-align: center;
+    font-weight: 500;
+    padding: 2rem 0;
+}
+
+.card {
+	flex-direction: column;
+	align-items: center;
+	padding: 3rem 0;
+	border-top: 1px solid #f0f0f0; 
+}
+
+.card-img {
+	display: inline;
+	width: 50%;
 }
 
 .card-img img {
-	width: 40%;
-	margin: 0 auto;
+    width: 100%;
+}
+
+.card h3 {
+	font-size: 2rem;
+	margin: 1rem 0;
+}
+
+.card p {
+	font-size: 1.8rem;
+	text-align: center;
+	font-weight: 600;
+}
+
+.find-us {
+	justify-content: space-around;
+}
+
+.copyright-info {
+	justify-content: space-around;
 }
