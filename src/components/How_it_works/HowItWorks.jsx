@@ -1,32 +1,37 @@
 import React from "react";
 import styles from "./HowItWorks.module.css";
+import Card from "../Card/Card.jsx";
 
 const HowItWorks = function() {
+    // const cards = [{
+    //     image: "images/how-it-works-1.png",
+    //     image_alt: "couches", 
+    //     heading: "Give us a call ...",   
+    //     text: "Call us and book in a 'Design Consultation' for a date and time to suit you.", 
+    // }, {
+    //     image: "images/how-it-works-2.png",
+    //     image_alt: "clean desk", 
+    //     heading: "We come to you ...",   
+    //     text: "We come to your home to do an assessment of the space and to your style preference.", 
+    // }, {
+    //     image: "images/how-it-works-3.png",
+    //     image_alt: "couch", 
+    //     heading: "We recommend ...",   
+    //     text: "We send you a bespoke set of fireplace recommendations.", 
+    // }]
+    const card = {
+        image: "images/how-it-works-1.png",
+        image_alt: "couches", 
+        heading: "Give us a call ...",   
+        text: "Call us and book in a 'Design Consultation' for a date and time to suit you.", 
+    }
     return(
         <>
             <section className={styles.how_it_works}>
                 <h2 className={styles.how_it_works_h2}>How it works.</h2>
-                <div className="card flex">
-                    <figure className="card-img">
-                        <img src="images/how-it-works-1.png" alt="" />
-                    </figure>
-                    <h3>Give us a call ...</h3>
-                    <p>Call us and book a "Design Consultation" on a date and time to suit you.</p>
-                </div>
-                <div className="card flex">
-                    <figure className="card-img">
-                        <img src="images/how-it-works-2.png" alt="" />                    
-                    </figure>
-                    <h3>We come to you ...</h3>
-                    <p>We come to your home to do an assessment of the space and to your style preference.</p>
-                </div>
-                <div className="card flex">
-                    <figure className="card-img">
-                        <img src="images/how-it-works-3.png" alt="" />
-                    </figure>
-                    <h3>We recommend ...</h3>
-                    <p>We send you a bespoke set of fireplace recommendations.</p>
-                </div>
+                {/* {cards.map(card => <Card text={card} />)} */}
+                <Card card={card}/>
+                
             </section>
         </>
     );
